@@ -1,0 +1,57 @@
+[10/30/25 15:27:06] [ERROR] signal 6 (SIGABRT) catched; shutting log-core down (errno: 0, signal code: -6, exit status: 0)
+[10/30/25 15:27:36] [ERROR] signal 6 (SIGABRT) catched; shutting log-core down (errno: 0, signal code: -6, exit status: 0)
+[11/09/25 10:51:28] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 10:57:00] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 10:58:05] [ERROR] signal 6 (SIGABRT) catched; shutting log-core down (errno: 0, signal code: -6, exit status: 0)
+[11/09/25 10:58:18] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 11:28:52] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 11:55:23] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 12:23:24] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 12:24:16] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 12:38:42] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 12:42:19] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 13:06:09] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 13:27:04] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 13:28:18] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/09/25 13:29:16] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/10/25 01:57:39] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/10/25 02:10:54] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/10/25 02:18:38] [ERROR] signal 2 (SIGINT) catched; shutting log-core down (errno: 0, signal code: 0, exit status: 0)
+[11/11/25 04:25:33] [INFO] received Windows console close event; shutting log-core down
+[11/11/25 04:29:07] [INFO] received Windows console close event; shutting log-core down
+[11/11/25 04:32:15] [INFO] received Windows console close event; shutting log-core down
+[12/14/25 18:53:50] [INFO] received Windows console close event; shutting log-core down
+[12/14/25 18:55:17] [INFO] received Windows console close event; shutting log-core down
+[12/14/25 19:00:54] [INFO] received Windows console close event; shutting log-core down
+[12/14/25 19:04:44] [INFO] received Windows console close event; shutting log-core down
+[12/14/25 19:14:46] [INFO] received Windows console close event; shutting log-core down
+[12/16/25 02:57:11] [INFO] received Windows console close event; shutting log-core down
+[12/16/25 03:23:00] [INFO] received Windows console close event; shutting log-core down
+[12/16/25 03:28:32] [INFO] received Windows console close event; shutting log-core down
+[12/17/25 22:17:07] [INFO] received Windows console close event; shutting log-core down
+[12/18/25 02:46:01] [INFO] received Windows console close event; shutting log-core down
+[12/18/25 18:55:02] [INFO] received Windows console close event; shutting log-core down
+[12/18/25 18:59:32] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 02:18:45] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 03:53:23] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 04:04:35] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 04:23:11] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 15:14:43] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 15:33:27] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 15:36:27] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 15:37:55] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 15:48:41] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 15:56:16] [INFO] received Windows console close event; shutting log-core down
+[12/19/25 16:33:06] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 00:16:24] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 00:50:16] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 02:26:39] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 02:36:35] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 02:40:19] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 13:31:00] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 13:40:03] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 13:42:05] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 13:52:55] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 14:32:42] [INFO] received Windows console close event; shutting log-core down
+[12/20/25 15:13:33] [INFO] received Windows console close event; shutting log-core down
+[09/02/26 12:21:15] [INFO] received Windows console close event; shutting log-core down

@@ -1,0 +1,688 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x612E6E69 Module: (Unknown)
+
+Registers:
+EAX: 0x030FD9C0	EBX: 0x0019F710	ECX: 0x00000000	EDX: 0x71F184D8
+ESI: 0x030FD9C0	EDI: 0x0019FB34	EBP: 0x614D2F73	ESP: 0x00515C08
+EFLAGS: 0x00010206
+
+Stack:
++0000: 0x0000786D   0x00000000   0x00000000   0x00000000
++0010: 0x00000000   0x00000000   0x00000000   0x00000000
++0020: 0x00000000   0x00000000   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x00000000
++0040: 0x00000000   0x00000000   0x00000000   0x00000000
++0050: 0x00000000   0x00000000   0x00000000   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x00000000
++0070: 0x00000000   0x00000000   0x00000000   0x00000000
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x00000000   0x00000000   0x00000000   0x00000000
++00A0: 0x00000000   0x00000000   0x00000000   0x00000000
++00B0: 0x00000000   0x00000000   0x00000000   0x00000000
++00C0: 0x00000000   0x00000000   0x00000000   0x00000000
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00022F7E   0x00000000   0x022FD6E8
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x000000F8   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\zenss\Documents\VERONA GAMEMODE\samp-server.exe)
+ntdll.dll	A: 0x77650000 - 0x777F4000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75920000 - 0x75A10000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x761D0000 - 0x7640A000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75C10000 - 0x761C7000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x77300000 - 0x7737B000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75A70000 - 0x75B90000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x76900000 - 0x76A9C000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x75660000 - 0x75678000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76520000 - 0x76543000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x765B0000 - 0x76695000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x74C40000 - 0x74C48000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x773E0000 - 0x7749F000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x76AA0000 - 0x76B03000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x76840000 - 0x768FF000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x754B0000 - 0x754D8000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x774A0000 - 0x774C6000	(C:\Windows\System32\IMM32.DLL)
+sampvoice.DLL	A: 0x743C0000 - 0x743EB000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sampvoice.DLL)
+VCRUNTIME140.dll	A: 0x73D80000 - 0x73D95000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x72000000 - 0x7206D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+kernel.appcore.dll	A: 0x750B0000 - 0x750BF000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+MSVCP100.dll	A: 0x71F30000 - 0x71F99000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x72070000 - 0x7212F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sscanf.DLL)
+streamer.DLL	A: 0x71EC0000 - 0x71F2D000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x71E30000 - 0x71EBE000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x73D70000 - 0x73D7A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x71DE0000 - 0x71E2E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\mysql.DLL)
+log-core.dll	A: 0x73580000 - 0x7359A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\log-core.dll)
+libmariadb.dll	A: 0x71D10000 - 0x71DDD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\libmariadb.dll)
+SHLWAPI.dll	A: 0x775F0000 - 0x77635000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x76740000 - 0x7683F000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x756C0000 - 0x7573E000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75B90000 - 0x75C08000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x76E10000 - 0x76E29000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x74CA0000 - 0x74CAA000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x74B30000 - 0x74B51000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x754E0000 - 0x754EA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x73A30000 - 0x73A41000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73A10000 - 0x73A26000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x73A00000 - 0x73A10000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x739E0000 - 0x739F6000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74AF0000 - 0x74B22000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x74E50000 - 0x74EA2000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73A50000 - 0x73AE1000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x756A0000 - 0x756A7000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x739D0000 - 0x739DE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x73970000 - 0x73978000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x71C00000 - 0x71C0A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x71BE0000 - 0x71BF3000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x71BD0000 - 0x71BD5000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\nativechecker.DLL)
+bcryptPrimitives.dll	A: 0x77380000 - 0x773DF000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x612E6E69 Module: (Unknown)
+
+Registers:
+EAX: 0x030ED9C0	EBX: 0x0019F710	ECX: 0x00000000	EDX: 0x723C84D8
+ESI: 0x030ED9C0	EDI: 0x0019FB34	EBP: 0x614D2F73	ESP: 0x00515C08
+EFLAGS: 0x00010206
+
+Stack:
++0000: 0x0000786D   0x00000000   0x00000000   0x00000000
++0010: 0x00000000   0x00000000   0x00000000   0x00000000
++0020: 0x00000000   0x00000000   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x00000000
++0040: 0x00000000   0x00000000   0x00000000   0x00000000
++0050: 0x00000000   0x00000000   0x00000000   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x00000000
++0070: 0x00000000   0x00000000   0x00000000   0x00000000
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x00000000   0x00000000   0x00000000   0x00000000
++00A0: 0x00000000   0x00000000   0x00000000   0x00000000
++00B0: 0x00000000   0x00000000   0x00000000   0x00000000
++00C0: 0x00000000   0x00000000   0x00000000   0x00000000
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00056566   0x00000000   0x024FD710
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x000000F8   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\zenss\Documents\VERONA GAMEMODE\samp-server.exe)
+ntdll.dll	A: 0x77C50000 - 0x77DF4000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x770E0000 - 0x771D0000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75C70000 - 0x75EAA000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x76AA0000 - 0x77078000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75F40000 - 0x75FBB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x77B20000 - 0x77C40000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x77820000 - 0x779BC000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x77620000 - 0x77638000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x779C0000 - 0x779E3000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x769B0000 - 0x76A95000	(C:\Windows\System32\gdi32full.dll)
+WINMM.dll	A: 0x757E0000 - 0x75808000	(C:\Windows\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x75740000 - 0x75748000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x77320000 - 0x773DF000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x777B0000 - 0x77813000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x75B70000 - 0x75C2E000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75C30000 - 0x75C56000	(C:\Windows\System32\IMM32.DLL)
+sampvoice.DLL	A: 0x73750000 - 0x7377B000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sampvoice.DLL)
+VCRUNTIME140.dll	A: 0x734E0000 - 0x734F5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x724B0000 - 0x7251D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+kernel.appcore.dll	A: 0x74430000 - 0x7443F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+MSVCP100.dll	A: 0x723E0000 - 0x72449000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x737C0000 - 0x7387F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sscanf.DLL)
+streamer.DLL	A: 0x72370000 - 0x723DD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x722E0000 - 0x7236E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x740F0000 - 0x740FA000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x72290000 - 0x722DE000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\mysql.DLL)
+log-core.dll	A: 0x734C0000 - 0x734DA000	(C:\Users\zenss\Documents\VERONA GAMEMODE\log-core.dll)
+libmariadb.dll	A: 0x721C0000 - 0x7228D000	(C:\Users\zenss\Documents\VERONA GAMEMODE\libmariadb.dll)
+SHLWAPI.dll	A: 0x76570000 - 0x765B5000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x77520000 - 0x7761F000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x779F0000 - 0x77A6D000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x768D0000 - 0x76948000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x760A0000 - 0x760B9000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x75940000 - 0x7594A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x745A0000 - 0x745C1000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x75810000 - 0x7581A000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x73FB0000 - 0x73FC1000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73F90000 - 0x73FA6000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x73F80000 - 0x73F90000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x73F60000 - 0x73F76000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x758F0000 - 0x75922000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x743D0000 - 0x74422000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73FD0000 - 0x74061000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x769A0000 - 0x769A7000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x73F50000 - 0x73F5E000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x73F40000 - 0x73F48000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x734B0000 - 0x734BA000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x73580000 - 0x73593000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x73570000 - 0x73575000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\nativechecker.DLL)
+bcryptPrimitives.dll	A: 0x773E0000 - 0x7743F000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0048D56F Module: (samp-server.exe)
+
+Registers:
+EAX: 0x00000001	EBX: 0x025A8C58	ECX: 0x025AD738	EDX: 0x004966A0
+ESI: 0x000003E8	EDI: 0x000003E8	EBP: 0x00000000	ESP: 0x0019FE20
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x00000000   0x000023F0   0x0019FF70   0x0035E000
++0010: 0x00017E2C   0x00010001   0x00000320   0x00001E61
++0020: 0x00000174   0x00000044   0x025A9D58   0x656D6167
++0030: 0x65646F6D   0x00003531   0x004C4020   0x004C401C
++0040: 0x0035E000   0x004AB4A0   0x0019FE58   0x0019FF60
++0050: 0x0019FF60   0x0049D208   0x004BA2F8   0xFFFFFFFF
++0060: 0x0049B4A1   0x0049B4B1   0x004AB4A0   0x0019FF60
++0070: 0x004AB0E1   0xFFFFFFFF   0x0049CCA6   0x00000001
++0080: 0x025A1450   0x025A14A0   0x00000094   0x00000006
++0090: 0x00000002   0x000023F0   0x00000002   0x00000000
++00A0: 0x00000000   0x00000000   0x00000000   0x00000000
++00B0: 0x00000000   0x00000000   0x00000000   0x00000000
++00C0: 0x00000000   0x00000000   0x00000000   0x00000000
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x0049CB52   0x0049CB3A
++0120: 0x0049CB3A   0x0035E000   0x00000000   0x00000000
++0130: 0xC0000005   0x00000000   0x0019FEA8   0x0019F18C
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\zenss\Documents\VERONA GAMEMODE\samp-server.exe)
+ntdll.dll	A: 0x77040000 - 0x771E4000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76E80000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75150000 - 0x7538A000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x76610000 - 0x76BE7000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x74EC0000 - 0x74F3B000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75A00000 - 0x75B20000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x76BF0000 - 0x76D8D000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x75D90000 - 0x75DA8000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x77000000 - 0x77023000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x75000000 - 0x750E6000	(C:\Windows\System32\gdi32full.dll)
+WINMM.dll	A: 0x74BE0000 - 0x74C08000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x75480000 - 0x7553F000	(C:\Windows\System32\msvcrt.dll)
+WSOCK32.dll	A: 0x74E70000 - 0x74E78000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x75590000 - 0x755F3000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x763F0000 - 0x764AC000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x753D0000 - 0x753F6000	(C:\Windows\System32\IMM32.DLL)
+sampvoice.DLL	A: 0x74E40000 - 0x74E6B000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sampvoice.DLL)
+VCRUNTIME140.dll	A: 0x74E20000 - 0x74E35000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x74DB0000 - 0x74E1D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+kernel.appcore.dll	A: 0x73820000 - 0x7382F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+MSVCR100.dll	A: 0x73B20000 - 0x73BDF000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+MSVCP100.dll	A: 0x73AB0000 - 0x73B19000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sscanf.DLL)
+streamer.DLL	A: 0x73A40000 - 0x73AAD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x73840000 - 0x738CE000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x74D40000 - 0x74D4A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x74CF0000 - 0x74D3E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\mysql.DLL)
+log-core.dll	A: 0x73A20000 - 0x73A3A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\log-core.dll)
+libmariadb.dll	A: 0x73190000 - 0x7325D000	(C:\Users\zenss\Documents\VERONA GAMEMODE\libmariadb.dll)
+SHLWAPI.dll	A: 0x75730000 - 0x75775000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x76210000 - 0x76310000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x74F40000 - 0x74FBD000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x756B0000 - 0x75728000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x761F0000 - 0x76209000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x73F40000 - 0x73F4A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x73910000 - 0x73931000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x74C10000 - 0x74C1A000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x73420000 - 0x73431000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73400000 - 0x73416000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x733F0000 - 0x73400000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x733D0000 - 0x733E6000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74E80000 - 0x74EB2000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x737C0000 - 0x73812000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73440000 - 0x734D1000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75390000 - 0x75397000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x733C0000 - 0x733CE000	(C:\Windows\System32\winrnr.dll)
+mdnsNSP.dll	A: 0x732F0000 - 0x73311000	(C:\Program Files (x86)\Bonjour\mdnsNSP.dll)
+rasadhlp.dll	A: 0x733B0000 - 0x733B8000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x73A00000 - 0x73A0A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x739E0000 - 0x739F3000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x739D0000 - 0x739D5000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\nativechecker.DLL)
+bcryptPrimitives.dll	A: 0x750F0000 - 0x7514F000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x042474FF Module: (Unknown)
+
+Registers:
+EAX: 0x666E495B	EBX: 0x16711C73	ECX: 0x7FFFFFFE	EDX: 0x0019F174
+ESI: 0x0019EDA0	EDI: 0x0019F59F	EBP: 0x2277E004	ESP: 0x00498D73
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0xFFFF75E8   0x59C085FF   0x44391675   0x10740824
++0010: 0x042474FF   0x005CDEE8   0x59C08500   0xC033DE75
++0020: 0x0C35FFC3   0xFF00515F   0xE8082474   0xFFFFFFC5
++0030: 0x6AC35959   0xA158680C   0x02E8004B   0x8B000044
++0040: 0xF6850875   0x3D835874   0x005164B4   0x6A407503
++0050: 0x43B9E804   0x83590000   0x5600FC65   0x0051BBE8
++0060: 0x45895900   0x74C085E4   0xE8505609   0x000051D7
++0070: 0x4D835959   0x0BE8FFFC   0x83000000   0x7500E47D
++0080: 0x0875FF1D   0x046A0AEB   0x0042CDE8   0x56C35900
++0090: 0x35FF006A   0x005164B0   0xC1A415FF   0xD9E8004A
++00A0: 0xC3000043   0x51EC8B55   0xF8458D51   0xC415FF50
++00B0: 0x8B004AC0   0x4D8BF845   0x05006AFC   0x2AC18000
++00C0: 0x98968068   0x21D18100   0x51FE624E   0x5C4BE850
++00D0: 0x4D8B0000   0x74C98508   0xC9018902   0xEC8B55C3
++00E0: 0x5620EC83   0x5708758B   0x5010458D   0x8D0C75FF
++00F0: 0xC750E045   0xFFFFE445   0x45C77FFF   0x000042EC
++0100: 0xE8758900   0xE8E07589   0x00004863   0x850CC483
++0110: 0x74F88BF6   0xE44DFF1A   0x458B0878   0x0000C6E0
++0120: 0x458D0DEB   0x006A50E0   0x005C58E8   0x8B595900
++0130: 0xC95E5FC7   0xE85756C3   0x00005FDE   0x3B64788B
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\zenss\Documents\VERONA GAMEMODE\samp-server.exe)
+ntdll.dll	A: 0x77E30000 - 0x77FD4000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x77910000 - 0x77A00000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77270000 - 0x774AA000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x768E0000 - 0x76EB7000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76330000 - 0x763AB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x77B60000 - 0x77C80000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x77C80000 - 0x77E1D000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x76260000 - 0x76278000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76300000 - 0x76323000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x77080000 - 0x77166000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x75AE0000 - 0x75AE8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x75D40000 - 0x75DFF000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x77A00000 - 0x77A63000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x76EC0000 - 0x76F7C000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x753C0000 - 0x753E8000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x77880000 - 0x778A6000	(C:\Windows\System32\IMM32.DLL)
+sampvoice.DLL	A: 0x75A90000 - 0x75ABB000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sampvoice.DLL)
+VCRUNTIME140.dll	A: 0x75A70000 - 0x75A85000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x75A00000 - 0x75A6D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+kernel.appcore.dll	A: 0x74610000 - 0x7461F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+MSVCP100.dll	A: 0x74650000 - 0x746B9000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x755B0000 - 0x7566F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sscanf.DLL)
+streamer.DLL	A: 0x74050000 - 0x740BD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x73FC0000 - 0x7404E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x75990000 - 0x7599A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x744E0000 - 0x7452E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\mysql.DLL)
+log-core.dll	A: 0x75590000 - 0x755AA000	(C:\Users\zenss\Documents\VERONA GAMEMODE\log-core.dll)
+libmariadb.dll	A: 0x73EF0000 - 0x73FBD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\libmariadb.dll)
+SHLWAPI.dll	A: 0x77030000 - 0x77075000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x77780000 - 0x77880000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x76280000 - 0x762FD000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x77170000 - 0x771E8000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x76120000 - 0x76139000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x75980000 - 0x7598A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x74A40000 - 0x74A61000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x75450000 - 0x7545A000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x74190000 - 0x741A1000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x74170000 - 0x74186000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x74160000 - 0x74170000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x74140000 - 0x74156000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x75780000 - 0x757B2000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x745B0000 - 0x74602000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x741B0000 - 0x74241000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x776C0000 - 0x776C7000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x74130000 - 0x7413E000	(C:\Windows\System32\winrnr.dll)
+mdnsNSP.dll	A: 0x74100000 - 0x74121000	(C:\Program Files (x86)\Bonjour\mdnsNSP.dll)
+rasadhlp.dll	A: 0x740F0000 - 0x740F8000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x75480000 - 0x7548A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x75460000 - 0x75473000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x74640000 - 0x74645000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\nativechecker.DLL)
+SHCORE.dll	A: 0x75CB0000 - 0x75D37000	(C:\Windows\System32\SHCORE.dll)
+combase.dll	A: 0x75E00000 - 0x76080000	(C:\Windows\System32\combase.dll)
+bcryptPrimitives.dll	A: 0x76880000 - 0x768DF000	(C:\Windows\System32\bcryptPrimitives.dll)
+windows.storage.dll	A: 0x74A70000 - 0x75085000	(C:\Windows\SYSTEM32\windows.storage.dll)
+OLEAUT32.dll	A: 0x76080000 - 0x76116000	(C:\Windows\System32\OLEAUT32.dll)
+uxtheme.dll	A: 0x75090000 - 0x75104000	(C:\Windows\system32\uxtheme.dll)
+PROPSYS.dll	A: 0x70ED0000 - 0x70F92000	(C:\Windows\SYSTEM32\PROPSYS.dll)
+CFGMGR32.dll	A: 0x76220000 - 0x7625B000	(C:\Windows\System32\CFGMGR32.dll)
+profapi.dll	A: 0x74380000 - 0x7439B000	(C:\Windows\SYSTEM32\profapi.dll)
+edputil.dll	A: 0x73D90000 - 0x73DAB000	(C:\Windows\SYSTEM32\edputil.dll)
+urlmon.dll	A: 0x72980000 - 0x72B29000	(C:\Windows\SYSTEM32\urlmon.dll)
+srvcli.dll	A: 0x73AD0000 - 0x73AED000	(C:\Windows\SYSTEM32\srvcli.dll)
+iertutil.dll	A: 0x72740000 - 0x72976000	(C:\Windows\SYSTEM32\iertutil.dll)
+netutils.dll	A: 0x73E80000 - 0x73E8B000	(C:\Windows\SYSTEM32\netutils.dll)
+virtdisk.dll	A: 0x6C820000 - 0x6C82F000	(C:\Windows\SYSTEM32\virtdisk.dll)
+FLTLIB.DLL	A: 0x6C810000 - 0x6C818000	(C:\Windows\SYSTEM32\FLTLIB.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049B4B1 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x32090000	EBX: 0x00000000	ECX: 0x00000000	EDX: 0x32090000
+ESI: 0x02270000	EDI: 0x3208FFF8	EBP: 0x0049B4A1	ESP: 0x0019FE88
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x004AB4A0   0x0019FF60   0x004AB0E1   0xFFFFFFFF
++0010: 0x0049CCA6   0x00000001   0x02271450   0x022714A0
++0020: 0x00000094   0x00000006   0x00000002   0x000023F0
++0030: 0x00000002   0x00000000   0x00000000   0x00000000
++0040: 0x00000000   0x00000000   0x00000000   0x00000000
++0050: 0x00000000   0x00000000   0x00000000   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x00000000
++0070: 0x00000000   0x00000000   0x00000000   0x00000000
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x00000000   0x00000000   0x00000000   0x00000000
++00A0: 0x00000000   0x00000000   0x00000000   0x00000000
++00B0: 0x0049CB52   0x0049CB3A   0x0049CB3A   0x0034B000
++00C0: 0x00000000   0x00000000   0xC0000005   0x00000000
++00D0: 0x0019FEA8   0x0019CFA4   0x0019FFCC   0x0049D208
++00E0: 0x004BA530   0x00000000   0x0019FF80   0x7792FCC9
++00F0: 0x0034B000   0x7792FCB0   0x0019FFDC   0x77E97C5E
++0100: 0x0034B000   0x90931C35   0x00000000   0x00000000
++0110: 0x0034B000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x0019FF8C
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\zenss\Documents\VERONA GAMEMODE\samp-server.exe)
+ntdll.dll	A: 0x77E30000 - 0x77FD4000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x77910000 - 0x77A00000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77270000 - 0x774AA000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x768E0000 - 0x76EB7000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76330000 - 0x763AB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x77B60000 - 0x77C80000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x77C80000 - 0x77E1D000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x76260000 - 0x76278000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76300000 - 0x76323000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x77080000 - 0x77166000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x75AE0000 - 0x75AE8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x75D40000 - 0x75DFF000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x77A00000 - 0x77A63000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x76EC0000 - 0x76F7C000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x753C0000 - 0x753E8000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x77880000 - 0x778A6000	(C:\Windows\System32\IMM32.DLL)
+sampvoice.DLL	A: 0x75A90000 - 0x75ABB000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sampvoice.DLL)
+VCRUNTIME140.dll	A: 0x75A70000 - 0x75A85000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x75A00000 - 0x75A6D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+kernel.appcore.dll	A: 0x74610000 - 0x7461F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+MSVCP100.dll	A: 0x74650000 - 0x746B9000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x755B0000 - 0x7566F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\sscanf.DLL)
+streamer.DLL	A: 0x74050000 - 0x740BD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x73FC0000 - 0x7404E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x75990000 - 0x7599A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x744E0000 - 0x7452E000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\mysql.DLL)
+log-core.dll	A: 0x75590000 - 0x755AA000	(C:\Users\zenss\Documents\VERONA GAMEMODE\log-core.dll)
+libmariadb.dll	A: 0x73EF0000 - 0x73FBD000	(C:\Users\zenss\Documents\VERONA GAMEMODE\libmariadb.dll)
+SHLWAPI.dll	A: 0x77030000 - 0x77075000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x77780000 - 0x77880000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x76280000 - 0x762FD000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x77170000 - 0x771E8000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x76120000 - 0x76139000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x75980000 - 0x7598A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x74A40000 - 0x74A61000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x75450000 - 0x7545A000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x74190000 - 0x741A1000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x74170000 - 0x74186000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x74160000 - 0x74170000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x74140000 - 0x74156000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x75780000 - 0x757B2000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x745B0000 - 0x74602000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x741B0000 - 0x74241000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x776C0000 - 0x776C7000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x74130000 - 0x7413E000	(C:\Windows\System32\winrnr.dll)
+mdnsNSP.dll	A: 0x74100000 - 0x74121000	(C:\Program Files (x86)\Bonjour\mdnsNSP.dll)
+rasadhlp.dll	A: 0x740F0000 - 0x740F8000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x75480000 - 0x7548A000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x75460000 - 0x75473000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x74640000 - 0x74645000	(C:\Users\zenss\Documents\VERONA GAMEMODE\plugins\nativechecker.DLL)
+SHCORE.dll	A: 0x75CB0000 - 0x75D37000	(C:\Windows\System32\SHCORE.dll)
+combase.dll	A: 0x75E00000 - 0x76080000	(C:\Windows\System32\combase.dll)
+bcryptPrimitives.dll	A: 0x76880000 - 0x768DF000	(C:\Windows\System32\bcryptPrimitives.dll)
+windows.storage.dll	A: 0x74A70000 - 0x75085000	(C:\Windows\SYSTEM32\windows.storage.dll)
+OLEAUT32.dll	A: 0x76080000 - 0x76116000	(C:\Windows\System32\OLEAUT32.dll)
+uxtheme.dll	A: 0x75090000 - 0x75104000	(C:\Windows\system32\uxtheme.dll)
+PROPSYS.dll	A: 0x70ED0000 - 0x70F92000	(C:\Windows\SYSTEM32\PROPSYS.dll)
+CFGMGR32.dll	A: 0x76220000 - 0x7625B000	(C:\Windows\System32\CFGMGR32.dll)
+profapi.dll	A: 0x74380000 - 0x7439B000	(C:\Windows\SYSTEM32\profapi.dll)
+edputil.dll	A: 0x73D90000 - 0x73DAB000	(C:\Windows\SYSTEM32\edputil.dll)
+urlmon.dll	A: 0x72980000 - 0x72B29000	(C:\Windows\SYSTEM32\urlmon.dll)
+srvcli.dll	A: 0x73AD0000 - 0x73AED000	(C:\Windows\SYSTEM32\srvcli.dll)
+iertutil.dll	A: 0x72740000 - 0x72976000	(C:\Windows\SYSTEM32\iertutil.dll)
+netutils.dll	A: 0x73E80000 - 0x73E8B000	(C:\Windows\SYSTEM32\netutils.dll)
+virtdisk.dll	A: 0x6C820000 - 0x6C82F000	(C:\Windows\SYSTEM32\virtdisk.dll)
+FLTLIB.DLL	A: 0x6C810000 - 0x6C818000	(C:\Windows\SYSTEM32\FLTLIB.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0044F01C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x02FCFF08	EBX: 0x004B5FBC	ECX: 0x00000000	EDX: 0x004E7136
+ESI: 0x02FCFF08	EDI: 0x0019FDD8	EBP: 0x00000000	ESP: 0x0019FDDC
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x0100007F   0x0048E7ED   0x00000000   0x004E712C
++0010: 0x0000C184   0x00000000   0x02129C80   0x02F65B78
++0020: 0x00491086   0x02F65B78   0x77B33340   0x02129C80
++0030: 0x0049125C   0x77B332F0   0x00000000   0x3BC44EDA
++0040: 0x0048D4DB   0x00000000   0x000023F0   0x0019FF70
++0050: 0x00308000   0x00017E2C   0x00010001   0x00000320
++0060: 0x00001E61   0x0000018C   0x00003A18   0x02129C80
++0070: 0x656D6167   0x65646F6D   0x00003531   0x004C4020
++0080: 0x004C401C   0x00308000   0x004AB4A0   0x0019FE58
++0090: 0x0019FF60   0x0019FF60   0x0049D208   0x004BA2F8
++00A0: 0xFFFFFFFF   0x0049B4A1   0x0049B4B1   0x004AB4A0
++00B0: 0x0019FF60   0x004AB0E1   0xFFFFFFFF   0x0049CCA6
++00C0: 0x00000001   0x021213F0   0x02121440   0x00000094
++00D0: 0x00000006   0x00000002   0x000023F0   0x00000002
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\samp-server.exe)
+ntdll.dll	A: 0x77DD0000 - 0x77F74000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x77B10000 - 0x77C00000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76860000 - 0x76A99000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x76D30000 - 0x7730A000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75F30000 - 0x75FAB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x77310000 - 0x77430000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x77940000 - 0x77ADC000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x76B90000 - 0x76BA8000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x77520000 - 0x77543000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x76AA0000 - 0x76B87000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x71E70000 - 0x71E78000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x77550000 - 0x7760F000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x75E20000 - 0x75E83000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x75C40000 - 0x75CFF000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x71020000 - 0x71048000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x77AE0000 - 0x77B05000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x710D0000 - 0x71139000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x71E80000 - 0x71F3F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+sampvoice.DLL	A: 0x71CC0000 - 0x71CEB000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\sampvoice.DLL)
+MSVCP140.dll	A: 0x71570000 - 0x715DD000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x715E0000 - 0x715F5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+sscanf.DLL	A: 0x710A0000 - 0x710CA000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\sscanf.DLL)
+kernel.appcore.dll	A: 0x75180000 - 0x7518F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+streamer.DLL	A: 0x70F60000 - 0x70FC6000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x70ED0000 - 0x70F59000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x71090000 - 0x7109A000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x70E80000 - 0x70ECE000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\mysql.DLL)
+log-core.dll	A: 0x71070000 - 0x7108A000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\log-core.dll)
+libmariadb.dll	A: 0x70DB0000 - 0x70E7D000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\libmariadb.dll)
+SHLWAPI.dll	A: 0x77D70000 - 0x77DB9000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x77C70000 - 0x77D6F000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x77430000 - 0x774AD000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x778A0000 - 0x77917000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x77920000 - 0x77939000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x74DC0000 - 0x74DCA000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x75410000 - 0x75431000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x74DB0000 - 0x74DBA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x71050000 - 0x71061000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x71000000 - 0x71016000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x70FE0000 - 0x70FF6000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x70D90000 - 0x70DA6000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x75910000 - 0x75942000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x759D0000 - 0x75A22000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x75880000 - 0x75910000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x76BB0000 - 0x76BB7000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x70D80000 - 0x70D8E000	(C:\Windows\System32\winrnr.dll)
+mdnsNSP.dll	A: 0x75840000 - 0x75861000	(C:\Program Files (x86)\Bonjour\mdnsNSP.dll)
+rasadhlp.dll	A: 0x757D0000 - 0x757D8000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x70D60000 - 0x70D6A000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x70D20000 - 0x70D51000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x70D10000 - 0x70D15000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\nativechecker.DLL)
+SHCORE.dll	A: 0x75D00000 - 0x75D87000	(C:\Windows\System32\SHCORE.dll)
+combase.dll	A: 0x76050000 - 0x762D0000	(C:\Windows\System32\combase.dll)
+bcryptPrimitives.dll	A: 0x77760000 - 0x777BF000	(C:\Windows\System32\bcryptPrimitives.dll)
+windows.storage.dll	A: 0x74700000 - 0x74D18000	(C:\Windows\SYSTEM32\windows.storage.dll)
+OLEAUT32.dll	A: 0x75FB0000 - 0x76046000	(C:\Windows\System32\OLEAUT32.dll)
+uxtheme.dll	A: 0x74D20000 - 0x74D94000	(C:\Windows\system32\uxtheme.dll)
+PROPSYS.dll	A: 0x756E0000 - 0x757A0000	(C:\Windows\SYSTEM32\PROPSYS.dll)
+CFGMGR32.dll	A: 0x75E90000 - 0x75ECB000	(C:\Windows\System32\CFGMGR32.dll)
+edputil.dll	A: 0x756C0000 - 0x756DB000	(C:\Windows\SYSTEM32\edputil.dll)
+urlmon.dll	A: 0x75470000 - 0x7561D000	(C:\Windows\SYSTEM32\urlmon.dll)
+iertutil.dll	A: 0x74F40000 - 0x75178000	(C:\Windows\SYSTEM32\iertutil.dll)
+srvcli.dll	A: 0x75450000 - 0x7546D000	(C:\Windows\SYSTEM32\srvcli.dll)
+netutils.dll	A: 0x75440000 - 0x7544B000	(C:\Windows\SYSTEM32\netutils.dll)
+virtdisk.dll	A: 0x75400000 - 0x7540F000	(C:\Windows\SYSTEM32\virtdisk.dll)
+FLTLIB.DLL	A: 0x753F0000 - 0x753F8000	(C:\Windows\SYSTEM32\FLTLIB.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0044F01C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0307FF08	EBX: 0x004B5FBC	ECX: 0x00000000	EDX: 0x004E7136
+ESI: 0x0307FF08	EDI: 0x0019FDD8	EBP: 0x00000000	ESP: 0x0019FDDC
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x0100007F   0x0048E7ED   0x00000000   0x004E712C
++0010: 0x0000D425   0x00000000   0x023D9C80   0x03015FF8
++0020: 0x00491086   0x03015FF8   0x776C3340   0x023D9C80
++0030: 0x0049125C   0x776C32F0   0x00000000   0x3BB142A6
++0040: 0x0048D4DB   0x00000000   0x000023F0   0x0019FF70
++0050: 0x00347000   0x00017E2C   0x00010001   0x00000320
++0060: 0x00001E61   0x00000180   0x00003700   0x023D9C80
++0070: 0x656D6167   0x65646F6D   0x00003531   0x004C4020
++0080: 0x004C401C   0x00347000   0x004AB4A0   0x0019FE58
++0090: 0x0019FF60   0x0019FF60   0x0049D208   0x004BA2F8
++00A0: 0xFFFFFFFF   0x0049B4A1   0x0049B4B1   0x004AB4A0
++00B0: 0x0019FF60   0x004AB0E1   0xFFFFFFFF   0x0049CCA6
++00C0: 0x00000001   0x023D13F0   0x023D1440   0x00000094
++00D0: 0x00000006   0x00000002   0x000023F0   0x00000002
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\samp-server.exe)
+ntdll.dll	A: 0x77B80000 - 0x77D24000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x776A0000 - 0x77790000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x759F0000 - 0x75C29000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75EC0000 - 0x7649A000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x77990000 - 0x77A0B000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x769B0000 - 0x76AD0000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x76D30000 - 0x76ECC000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x77870000 - 0x77888000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76AD0000 - 0x76AF3000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x77370000 - 0x77457000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x75150000 - 0x75158000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x76650000 - 0x7670F000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x77550000 - 0x775B3000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x775C0000 - 0x7767F000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x74140000 - 0x74168000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x77B40000 - 0x77B65000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x74070000 - 0x740D9000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x74170000 - 0x7422F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+sampvoice.DLL	A: 0x74040000 - 0x7406B000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\sampvoice.DLL)
+MSVCP140.dll	A: 0x73FD0000 - 0x7403D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x73FB0000 - 0x73FC5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+sscanf.DLL	A: 0x73F80000 - 0x73FAA000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\sscanf.DLL)
+kernel.appcore.dll	A: 0x74F30000 - 0x74F3F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+streamer.DLL	A: 0x73F10000 - 0x73F76000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\streamer.DLL)
+pawncmd.DLL	A: 0x73E80000 - 0x73F09000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\pawncmd.DLL)
+pawn-memory.DLL	A: 0x74F40000 - 0x74F4A000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\pawn-memory.DLL)
+mysql.DLL	A: 0x73E30000 - 0x73E7E000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\mysql.DLL)
+log-core.dll	A: 0x73E10000 - 0x73E2A000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\log-core.dll)
+libmariadb.dll	A: 0x72E20000 - 0x72EED000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\libmariadb.dll)
+SHLWAPI.dll	A: 0x75D50000 - 0x75D99000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x77890000 - 0x7798F000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x75C30000 - 0x75CAD000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x77A10000 - 0x77A87000	(C:\Windows\System32\sechost.dll)
+bcrypt.dll	A: 0x77680000 - 0x77699000	(C:\Windows\System32\bcrypt.dll)
+Secur32.dll	A: 0x74D80000 - 0x74D8A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x73D60000 - 0x73D81000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x74D70000 - 0x74D7A000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+napinsp.dll	A: 0x73DF0000 - 0x73E01000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73DD0000 - 0x73DE6000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x73DB0000 - 0x73DC6000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x73D90000 - 0x73DA6000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x75670000 - 0x756A2000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73C80000 - 0x73CD2000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73BF0000 - 0x73C80000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75EB0000 - 0x75EB7000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x74D60000 - 0x74D6E000	(C:\Windows\System32\winrnr.dll)
+mdnsNSP.dll	A: 0x73BC0000 - 0x73BE1000	(C:\Program Files (x86)\Bonjour\mdnsNSP.dll)
+rasadhlp.dll	A: 0x73BB0000 - 0x73BB8000	(C:\Windows\System32\rasadhlp.dll)
+samp-compat.DLL	A: 0x73D50000 - 0x73D5A000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\samp-compat.DLL)
+textdraw-streamer.DLL	A: 0x73D10000 - 0x73D41000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\textdraw-streamer.DLL)
+nativechecker.DLL	A: 0x73D00000 - 0x73D05000	(C:\Users\ASUS AMD\Desktop\Kotaqu Roleplay\plugins\nativechecker.DLL)
+SHCORE.dll	A: 0x75E20000 - 0x75EA7000	(C:\Windows\System32\SHCORE.dll)
+combase.dll	A: 0x76730000 - 0x769B0000	(C:\Windows\System32\combase.dll)
+bcryptPrimitives.dll	A: 0x76ED0000 - 0x76F2F000	(C:\Windows\System32\bcryptPrimitives.dll)
+windows.storage.dll	A: 0x744B0000 - 0x74AC8000	(C:\Windows\SYSTEM32\windows.storage.dll)
+OLEAUT32.dll	A: 0x75CB0000 - 0x75D46000	(C:\Windows\System32\OLEAUT32.dll)
+uxtheme.dll	A: 0x74AD0000 - 0x74B44000	(C:\Windows\system32\uxtheme.dll)
+PROPSYS.dll	A: 0x73A20000 - 0x73AE0000	(C:\Windows\SYSTEM32\PROPSYS.dll)
+CFGMGR32.dll	A: 0x76590000 - 0x765CB000	(C:\Windows\System32\CFGMGR32.dll)
+edputil.dll	A: 0x73920000 - 0x7393B000	(C:\Windows\SYSTEM32\edputil.dll)
+Windows.StateRepositoryPS.dll	A: 0x73880000 - 0x73913000	(C:\Windows\System32\Windows.StateRepositoryPS.dll)
+urlmon.dll	A: 0x72C70000 - 0x72E1D000	(C:\Windows\SYSTEM32\urlmon.dll)
+netutils.dll	A: 0x73CF0000 - 0x73CFB000	(C:\Windows\SYSTEM32\netutils.dll)
+srvcli.dll	A: 0x73B90000 - 0x73BAD000	(C:\Windows\SYSTEM32\srvcli.dll)
+iertutil.dll	A: 0x72A30000 - 0x72C68000	(C:\Windows\SYSTEM32\iertutil.dll)
+virtdisk.dll	A: 0x73CE0000 - 0x73CEF000	(C:\Windows\SYSTEM32\virtdisk.dll)
+FLTLIB.DLL	A: 0x73B80000 - 0x73B88000	(C:\Windows\SYSTEM32\FLTLIB.DLL)
+wintypes.dll	A: 0x74BD0000 - 0x74CAD000	(C:\Windows\System32\wintypes.dll)
+appresolver.dll	A: 0x729B0000 - 0x72A24000	(C:\Windows\System32\appresolver.dll)
+USERENV.dll	A: 0x73B50000 - 0x73B75000	(C:\Windows\System32\USERENV.dll)
+Bcp47Langs.dll	A: 0x72960000 - 0x729A8000	(C:\Windows\System32\Bcp47Langs.dll)
+SLC.dll	A: 0x72940000 - 0x7295F000	(C:\Windows\System32\SLC.dll)
+sppc.dll	A: 0x72920000 - 0x7293C000	(C:\Windows\System32\sppc.dll)
+OneCoreCommonProxyStub.dll	A: 0x728E0000 - 0x7291D000	(C:\Windows\System32\OneCoreCommonProxyStub.dll)
+OneCoreUAPCommonProxyStub.dll	A: 0x715E0000 - 0x7199C000	(C:\Windows\System32\OneCoreUAPCommonProxyStub.dll)

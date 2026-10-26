@@ -1,0 +1,10 @@
+{
+    "pawn.compilerPath": "",
+    "pawn.compileOptions": [
+        
+        "-d1",
+        "-O1",
+        "-(",
+        "-;"
+    ]
+}
